@@ -1,29 +1,24 @@
 /* Jumbotron */
-#jumbotron{
-    min-height: 500px;
-    background-image: url('https://i.pinimg.com/736x/bc/21/b9/bc21b95cddb64083de632293397a3e44.jpg');
-    background-size: cover;
-    background-position: center center;
+.jumbotron {
     position: relative;
+    display: inline-block;
+    padding: 10px;
 }
 
-#jumbotron h1{
-    color: #fff;
+.jumbotron img {
+    max-width: 100%;
+    display: block;
+    margin-left: 4rem;
 }
 
-.overlay{
-    position: absolute; /* Position the overlay absolutely within the parent container */
-    top: 0;
-    left: 0;
-    width: 100%; /* Cover the entire width of the parent */
-    height: 100%; /* Cover the entire height of the parent */
-    background-color: rgba(0, 0, 0, 0.5); /* Add your overlay color with the desired opacity */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
+.caption {
+    position: absolute;
+    top: 170px;
+    left: -60px;
+    background: radial-gradient(#04040491, #464646db);
     color: #fff;
+    padding: 15px;
+    font-size: 14px;
 }
 
 /* About Us Section */
@@ -36,7 +31,7 @@
 .about-left {
     top: 0;
     right: 0;
-    background-image: url('https://i.pngimg.me/thumb/f/720/6298347277123584.jpg'); /* Update with your image URL */
+    background-image: url('../../assests/temp.webp'); /* Update with your image URL */
     background-size: cover;
     background-position: center center;
 }
@@ -44,14 +39,14 @@
 .about-left article {
     bottom: 50px;
     right: 100px;
-    background: radial-gradient(#04040445, #72727245);
+    background: radial-gradient(#04040491, #464646db);
     padding: 30px;
 }
 
 .about-right {
     bottom: 0;
     left: 0;
-    background-image: url('https://volumesandvoyages.com/wp-content/uploads/2023/04/shutterstock_1049157986-1.jpg'); /* Update with your image URL */
+    background-image: url('../../assests/temp.webp'); /* Update with your image URL */
     background-size: cover;
     background-position: center center;
 }
@@ -59,6 +54,6 @@
 .about-right article {
     top: 50px;
     left: 100px;
-    background: radial-gradient(#04040445, #72727245);
+    background: radial-gradient(#04040491, #464646db);
     padding: 30px;
 }
