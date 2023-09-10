@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header>
-        <Navbar className='bg-nav border-bottom' id='nav'>
+        <Navbar className='bg-nav flex-nowrap justify-content-between' id='nav'>
             <Navbar.Brand href="/">
                 <img id="logo" src={logo} alt="logo" />
             </Navbar.Brand>
@@ -18,12 +18,12 @@ const Header = () => {
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">
+                    <NavLink href="/menu">
                         MENU
                     </NavLink>
                 </NavItem>
                 <NavItem>
-                    <NavLink href="#">
+                    <NavLink href="/contact">
                         CONTACT
                     </NavLink>
                 </NavItem>
